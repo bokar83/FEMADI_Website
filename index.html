@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="description" content="FEMADI — Fondation Elhadj Madifing Diane. Mission, activités, adhésion et contact. Site officiel (FR/EN)." />
+  <title>FEMADI — Fondation Elhadj Madifing Diane</title>
+  <link rel="preload" href="css/style.css" as="style" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  
+  <!-- Coming Soon Modal -->
+  <div id="coming-soon-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 class="lang lang-fr">Bientôt disponible</h3>
+      <h3 class="lang lang-en" hidden>Coming Soon</h3>
+      <p class="lang lang-fr">Cette fonctionnalité sera bientôt disponible. Merci de votre patience.</p>
+      <p class="lang lang-en" hidden>This feature will be available soon. Thank you for your patience.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="brand">
+        <img src="assets/logo.png" width="64" height="64" alt="Logo FEMADI" loading="eager" />
+        <span class="brand-text">FEMADI</span>
+      </a>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav aria-label="Navigation principale" class="nav">
+        <a href="#mission" class="nav-link">Mission</a>
+        <a href="#objectifs" class="nav-link">Objectifs</a>
+        <a href="#activites" class="nav-link">Activités</a>
+        <a href="#adhesion" class="nav-link">Adhésion</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Changer de langue">
+        <button id="btn-fr" class="lang-toggle active" data-lang="fr" aria-pressed="true">EN</button>
+        <button id="btn-en" class="lang-toggle" data-lang="en" aria-pressed="false" hidden>FR</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ACCUEIL -->
+    <section id="accueil" class="hero section">
+      <div class="container">
+        <h1 class="lang lang-fr">Fondation Elhadj Madifing Diane</h1>
+        <h1 class="lang lang-en" hidden>Elhadj Madifing Diane Foundation</h1>
+        <p class="lead lang lang-fr">
+          Organisation guinéenne dédiée à préserver l'héritage d'un patriote d'exception et à l'autonomisation des populations vulnérables.
+        </p>
+        <p class="lead lang lang-en" hidden>
+          A Guinean organization preserving the legacy of an exceptional patriot and empowering vulnerable communities.
+        </p>
+
+        <a href="#mission" class="btn cta">
+          <span class="lang lang-fr">Découvrir notre mission</span>
+          <span class="lang lang-en" hidden>Discover our mission</span>
+        </a>
+      </div>
+      <picture>
+        <source srcset="assets/hero.jpg" type="image/jpeg" />
+        <img class="hero-bg" src="assets/hero.jpg" alt="" loading="lazy" decoding="async" />
+      </picture>
+    </section>
+
+    <!-- MISSION -->
+    <section id="mission" class="section">
+      <div class="container">
+        <h2 class="lang lang-fr">Mission &amp; Vision</h2>
+        <h2 class="lang lang-en" hidden>Mission &amp; Vision</h2>
+
+        <p class="lang lang-fr">
+          Notre mission est de préserver l'héritage moral, culturel et intellectuel d'Elhadj Madifing Diane tout en œuvrant pour un avenir meilleur pour les plus démunis en Guinée et en Afrique.
+        </p>
+        <p class="lang lang-en" hidden>
+          Our mission is to preserve the moral, cultural and intellectual legacy of Elhadj Madifing Diane while working toward a better future for the underprivileged in Guinea and across Africa.
+        </p>
+      </div>
+    </section>
+
+    <!-- OBJECTIFS -->
+    <section id="objectifs" class="section muted">
+      <div class="container">
+        <h2 class="lang lang-fr">Objectifs prioritaires</h2>
+        <h2 class="lang lang-en" hidden>Key Objectives</h2>
+
+        <ul class="grid">
+          <li class="lang lang-fr">Base de données des œuvres et parcours d'Elhadj Madifing Diane</li>
+          <li class="lang lang-en" hidden>Professional archive of E. M. Diane's works and career</li>
+
+          <li class="lang lang-fr">Études & évaluations socioéconomiques</li>
+          <li class="lang lang-en" hidden>Socio‑economic research and evaluation</li>
+
+          <li class="lang lang-fr">Promotion de l'image & vision (musée à Kankan, Forum International FEMADI)</li>
+          <li class="lang lang-en" hidden>Promotion of legacy (museum in Kankan, FEMADI International Forum)</li>
+
+          <li class="lang lang-fr">Émancipation des femmes par des activités économiques et sociales</li>
+          <li class="lang lang-en" hidden>Women's economic & social empowerment</li>
+
+          <li class="lang lang-fr">Fonds spéciaux pour soutenir les objectifs</li>
+          <li class="lang lang-en" hidden>Special funds to support objectives</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ACTIVITÉS -->
+    <section id="activites" class="section">
+      <div class="container">
+        <h2 class="lang lang-fr">Activités</h2>
+        <h2 class="lang lang-en" hidden>Programs</h2>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3 class="lang lang-fr">Recherche &amp; documentation</h3>
+            <h3 class="lang lang-en" hidden>Research &amp; documentation</h3>
+            <p class="lang lang-fr">Collecte d'archives, témoignages, publications et médias.</p>
+            <p class="lang lang-en" hidden>Collecting archives, testimonies, publications and media.</p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang lang-fr">Formation &amp; inclusion</h3>
+            <h3 class="lang lang-en" hidden>Training &amp; inclusion</h3>
+            <p class="lang lang-fr">Ateliers pour femmes et jeunes autour des compétences utiles.</p>
+            <p class="lang lang-en" hidden>Workshops for women and youth on practical skills.</p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang lang-fr">Développement communautaire</h3>
+            <h3 class="lang lang-en" hidden>Community development</h3>
+            <p class="lang lang-fr">Initiatives locales: éducation, santé, culture, solidarité.</p>
+            <p class="lang lang-en" hidden>Local initiatives: education, health, culture, solidarity.</p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang lang-fr">Commémorations &amp; plaidoyer</h3>
+            <h3 class="lang lang-en" hidden>Commemorations &amp; advocacy</h3>
+            <p class="lang lang-fr">Forum International FEMADI et événements annuels.</p>
+            <p class="lang lang-en" hidden>FEMADI International Forum and annual events.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADHÉSION -->
+    <section id="adhesion" class="section muted">
+      <div class="container">
+        <h2 class="lang lang-fr">Adhésion</h2>
+        <h2 class="lang lang-en" hidden>Membership</h2>
+
+        <p class="lang lang-fr">
+          L'adhésion est ouverte à tous (en ligne ou au siège). Catégories: fondateurs, d'honneur, bienfaiteurs, adhérents, actifs.
+        </p>
+        <p class="lang lang-en" hidden>
+          Membership is open to all (online or at HQ). Categories: founders, honorary, patrons, members, active.
+        </p>
+
+        <div class="fees">
+          <p class="lang lang-fr"><strong>Frais annuels:</strong> Personne physique 200 000 GNF · Personne morale 1 500 000 GNF · Bienfaiteur 5 000 000 GNF+</p>
+          <p class="lang lang-en" hidden><strong>Annual fees:</strong> Individuals 200,000 GNF · Organizations 1,500,000 GNF · Patron 5,000,000 GNF+</p>
+        </div>
+
+        <div class="cta-row">
+          <button id="donation-btn" class="btn outline">
+            <span class="lang lang-fr">Soutenir la fondation</span>
+            <span class="lang lang-en" hidden>Support the foundation</span>
+          </button>
+          <a href="#contact" class="btn">
+            <span class="lang lang-fr">Nous contacter</span>
+            <span class="lang lang-en" hidden>Contact us</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DON (PLACEHOLDER) -->
+    <section id="donation" class="section">
+      <div class="container">
+        <h2 class="lang lang-fr">Dons — Bientôt disponible</h2>
+        <h2 class="lang lang-en" hidden>Donations — Coming soon</h2>
+        <p class="lang lang-fr">La fonctionnalité de don en ligne sera intégrée prochainement (paiement sécurisé et reçus).</p>
+        <p class="lang lang-en" hidden>Secure online donations will be added soon (with receipts).</p>
+        <button class="btn" disabled aria-disabled="true">
+          <span class="lang lang-fr">Prochainement</span>
+          <span class="lang lang-en" hidden>Coming soon</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section muted">
+      <div class="container">
+        <h2 class="lang lang-fr">Contact</h2>
+        <h2 class="lang lang-en" hidden>Contact</h2>
+
+        <ul class="contact-list">
+          <li><strong class="lang lang-fr">Siège social:</strong><strong class="lang lang-en" hidden>Head office:</strong> Kipé Dadiya (Conakry, Guinée)</li>
+          <li><strong>Email:</strong> <a href="mailto:fondationFEMADI@gmail.com">fondationFEMADI@gmail.com</a></li>
+          <li><strong class="lang lang-fr">Téléphone:</strong><strong class="lang lang-en" hidden>Phone:</strong> <a href="tel:+224611990000">+224 611 99 00 00</a></li>
+          <li>
+            <a href="https://wa.me/224611990000" target="_blank" rel="noopener" class="whatsapp-link">
+              <img src="assets/whatsapp.png" width="24" height="24" alt="WhatsApp" />
+              WhatsApp: +224 611 99 00 00
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> FEMADI — Fondation Elhadj Madifing Diane. Tous droits réservés.</small>
+      <a href="#accueil" class="back-to-top" aria-label="Retour en haut">↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

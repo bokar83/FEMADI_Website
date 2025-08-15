@@ -1,0 +1,17 @@
+/ (FR par défaut; EN via bascule)
+
+#accueil (Hero + logo + CTA)
+
+#mission (Mission & Vision)
+
+#objectifs (Objectifs prioritaires)
+
+#activites (Programmes)
+
+#adhesion (Catégories & cotisations)
+
+#donation (Bientôt disponible)
+
+#contact (Adresse, email, téléphone, WhatsApp)
+
+footer (© FEMADI)
