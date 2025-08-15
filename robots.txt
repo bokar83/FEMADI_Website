@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /
-Sitemap: 
+Allow: /
+Sitemap: /sitemap.xml
